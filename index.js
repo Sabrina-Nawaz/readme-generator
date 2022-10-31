@@ -4,6 +4,7 @@ const fs = require("fs");
 const util = require("util");
 
 // Connect modules via variables to application 
+const inquirerQuestions = require("./utils/inquirerQuestions");
 
 // TODO: Create an array of questions for user input
 inquirer
