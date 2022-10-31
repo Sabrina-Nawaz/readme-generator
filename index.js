@@ -3,13 +3,9 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
 
-// Connect modules via variables to application 
-const inquirerQuestions = require("./utils/inquirerQuestions");
-
-// TODO: Create an array of questions for user input
-inquirer
-    .prompt
-const questions = ([
+inquirer 
+.prompt
+([
     {
         //Project title
         type: "input",
@@ -49,30 +45,48 @@ const questions = ([
     {
         //Create a list of licenses  
         type: "list",
-        message: "Which license did you use?",
+        message: "Which license was used for this project?",
         name: "License",
-        choices: ["GPL", "MIT", "GNU", "Apache", "N/A"],
+        choices: [
+            "GPL", 
+            "Mozilla Public License", 
+            "MIT", 
+            "GNU", 
+            "Apache", 
+            "N/A"],
     },
     {
         //Enter Github username  
         type: "input",
         message: "Enter your Github username",
-        name: "Tests",
+        name: "GitHub",
     },
-]
-).then(({
-    Title,
-    Description,
-    Installation,
-    Usage,
-    Contribution, 
-    Tests,
+    {
+        //Enter Github username  
+        type: "input",
+        message: "Enter your Github username",
+        name: "GitHub",
+    },
+    {
+        //Enter Email  
+        type: "input",
+        message: "Enter your GitHub email",
+        name: "Email",
+    },
+    {
+        //Enter GitHub URL  
+        type: "input",
+        message: "Enter your GitHub repo URL",
+        name: "GitHub",
+    },
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
+])
 
-// TODO: Create a function to initialize app
-function init() { }
+// // TODO: Create a function to write README file
+// function writeToFile(fileName, data) { }
 
-// Function call to initialize app
-init();
+// // TODO: Create a function to initialize app
+// function init() { }
+
+// // Function call to initialize app
+// init();
