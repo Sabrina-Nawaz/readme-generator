@@ -32,6 +32,11 @@
   
   In the terminal, type `npm i` command to download npm dependencies (Inquirer). When done that step, in terminal once again, enter `node index.js`. 
   
+  The preview of how to use this program is shown below: 
+  
+  [Untitled_ Nov 2, 2022 4_34 PM.webm](https://user-images.githubusercontent.com/61954667/199600006-4c736eab-e87d-41aa-af05-98e6d4dc5756.webm)
+
+  
   ## License
 Copyright <2022 Sabrina Nawaz> <COPYRIGHT>
 
