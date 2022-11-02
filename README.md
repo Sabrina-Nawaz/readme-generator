@@ -22,10 +22,6 @@
 
   To use the program, all you need to do is run `node index.js` in the terminal and then answer a few prompts that come up. When the prompts are all answered, the `README.md` file generate on the left side of your code editor. 
   
-  This process can be seen in the GIF below. From there simply copy the README from the `/dist` directory and paste it in your new project. 
-
-  ![Program Walkthrough GIF](https://github.com/Thenlie/readme-generator/blob/main/assets/videos/video-walkthrough2.gif) 
-
 ## Installation
 
   To install this program, please clone the repo from GitHub using the following command: 
