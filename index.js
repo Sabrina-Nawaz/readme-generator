@@ -74,4 +74,17 @@ const questionsList = [
 
 ]
 const askQuestions = () => inquirer.prompt(questionsList)
-
+// TODO: Create a function to write README file
+function writeToFile(fileName, content) {
+    const name = fileName.toLowerCase().split(' ').join('_')
+    fs.writeFile(`./${name}.md`, content, () => {
+    })
+ };
+// TODO: Create a function to initialize app
+function init() { 
+    askQuestions()
+    .then(({title,...data}) => ({title, markdown: util({title,...data})}))
+    .then(({title, markdown}) => writeToFile(title, markdown))
+}
+// Function call to initialize app
+init();
