@@ -443,18 +443,50 @@ This Source Code Form is subject to the terms of the Mozilla Public License, v. 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   console.log({ data })
-  return `# ${data.title}
-  ${renderLicenseBadge(data.license)}
+  return `
+  # ${data.title} ${renderLicenseBadge(data.license)}
   ${renderLicenseLink(data.license)}
   ${renderLicenseSection(data.license)}
-  ## ${data.description}
+  ## Description 
+
+  ${data.description}
+
+  ## Table of Contents 
+  
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [License](#license)
+  * [Contributing](#Contributing)
+  * [Tests](#Tests)
+  * [Questions](#Questions)
+  
+  ***
+
+  ## Installation 
+
   ${data.installation}
-  ## Usage ${data.usage}
+
+  ## Usage 
+  
+  ${data.usage}
+
+  ${renderLicenseSection(data.license)}
+
+  ## Contributing
+
   ${data.contribution}
+
+  ## Tests
+
   ${data.tests}
+
+  ## Questions
+
+  Please reach out to me below if you have questions about the project either on my GitHub or my email.
+
   ${data.github}
-  ${data.email}
-  ${data.repo}
+  > Email: ${data.email}
+  > GitHub: ${data.repo}
   `;
 
 }
