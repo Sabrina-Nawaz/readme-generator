@@ -65,13 +65,6 @@ const questionsList = [
         message: "Enter your GitHub email",
         name: "email",
     },
-    {
-        //Enter GitHub URL  
-        type: "input",
-        message: "Enter your GitHub repo URL",
-        name: "repo",
-    },
-
 ]
 const askQuestions = () => inquirer.prompt(questionsList)
 // TODO: Create a function to write README file
