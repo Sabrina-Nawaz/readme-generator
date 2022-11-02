@@ -8,7 +8,7 @@
 
 ## Description
 
-  This README Generator is a NodeJS program which creates a high quality README markdown file when the user answers a prompt of questions from the Inquirer npm package. If you need a README, use this program to help you! 
+  This README Generator was created through NodeJS which populates a high quality README markdown file when the user answers a prompt of questions from the Inquirer npm package. If you need a README, use this program to help you! 
 
 ## Table of Contents
   * [Usage](#usage)  
@@ -20,7 +20,7 @@
     ***
 ## Usage
 
-  To use the program, all you need to do is run `node index.js` in the terminal and then answer a few prompts that come up. When the prompts are all answered, the `README.md` file generate on the left side of your code editor. 
+  To use the program, you need to run `node index.js` in the terminal and then answer a few prompts that come up. When the prompts are all answered, the `README.md` file generate on the left side of your code editor. 
   
 ## Installation
 
