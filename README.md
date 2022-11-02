@@ -54,7 +54,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   
   ## Questions
 
-  If you have any questions about the project you can reach out to me via email or GitHub with the information below. 
+  If you have any questions about the project you can reach out to me through my GitHub or my email found below.  
 
   >Email: sabrinanawaz23@gmail.com 
 
