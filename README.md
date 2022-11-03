@@ -30,7 +30,7 @@
   git@github.com:Sabrina-Nawaz/readme-generator.git
   ```
   
-  In the terminal, type `npm i` command to download npm dependencies (Inquirer). When done that step, in terminal once again, enter `node index.js`. 
+  In the terminal, type `npm i` command to download npm dependencies (Inquirer). When done that step, in the terminal once again, enter `node index.js`. 
   
   The preview of how to use this program is shown below: 
   
